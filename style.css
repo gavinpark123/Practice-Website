@@ -59,3 +59,22 @@ button{
     height: 20px;
     width: 80px;
 }
+
+/* Styling for Second Section (Middle-1) */
+.Middle-1{
+    display: flex;
+    flex-flow: column;
+}
+.random{
+    text-align: center;
+}
+.items{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.item-1, .item-2, .item-3, .item-4{
+    display: flex;
+    width: 200px; 
+    flex-wrap: wrap;
+}
