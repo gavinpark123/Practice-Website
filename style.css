@@ -44,13 +44,19 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 0
+    padding-left: 15%;
+    padding-right: 15%;
 
 }
 .container-3{
     display: flex;
     width: 50%;
     flex-direction: column;
+}
+.container-2 img{
+    align-self: center;
+    padding-top: 5%
+
 }
 .Awesome{
     margin-bottom: -10px;
@@ -83,6 +89,9 @@ button{
     display: flex;
     width: 200px; 
     flex-wrap: wrap;
+}
+.subtext{
+    margin-top: 8px;
 }
 
 /* Styling for Third Section (Middle-2) */
@@ -136,4 +145,11 @@ button{
 }
 .container button{
     border-color: white;
+}
+.Footer{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
